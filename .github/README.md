@@ -1,6 +1,4 @@
-# 👋 Olá, Mundo!
-
-## 🚀 AngularProjetoInicialNet5
+# 🚀 Angular8 & .Net5
 
 Este repositório apresenta uma aplicação **Single Page Application (SPA)** integrada com **ASP.NET Core 5 (back-end)** e **Angular 8 (front-end)**, utilizando **TypeScript**, **Bootstrap** e os recursos nativos do Angular CLI.
 
