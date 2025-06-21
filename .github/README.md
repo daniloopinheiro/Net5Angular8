@@ -1,44 +1,119 @@
-# Olá Mundo!
+# 👋 Olá, Mundo!
 
-## AngularProjetoInicialNet5
+## 🚀 AngularProjetoInicialNet5
 
-Bem-vindo ao seu novo aplicativo de página única, desenvolvido com:
+Este repositório apresenta uma aplicação **Single Page Application (SPA)** integrada com **ASP.NET Core 5 (back-end)** e **Angular 8 (front-end)**, utilizando **TypeScript**, **Bootstrap** e os recursos nativos do Angular CLI.
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 8.0.0.
+---
 
-     ASP.NET Core e C# para código do lado do servidor de plataforma cruzada
-     Angular e TypeScript para código do lado do cliente
-     Bootstrap para layout e estilo
+## 🛠️ Tecnologias Utilizadas
 
-## Servidor de desenvolvimento
+* ⚙️ **ASP.NET Core 5** — Código do lado servidor, cross-platform
+* 🌐 **Angular 8** — Framework SPA moderno para o front-end
+* 💅 **Bootstrap** — Estilização e layout responsivo
+* 📦 **TypeScript** — Tipagem estática para JavaScript
+* 🧱 **Angular CLI** — Ferramenta de scaffolding e build
+* 📡 **HTTP Client** — Comunicação entre Angular e API REST
 
-Execute `cd ClientApp e ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+---
 
-Para ajudar você a começar, também configuramos:
+## ⚙️ Como Executar o Projeto
 
-     Navegação do lado do cliente. Por exemplo, clique em Contador e depois em Voltar para voltar aqui.
-     Integração CLI angular. No modo de desenvolvimento, não há necessidade de executar ng serve. Ele é executado em segundo plano automaticamente, portanto, seus recursos do lado do cliente são criados dinamicamente sob demanda e a página é atualizada quando você modifica qualquer arquivo.
-     Construções de produção eficientes. No modo de produção, os recursos de tempo de desenvolvimento são desativados e sua configuração de publicação dotnet invoca automaticamente ng build para produzir arquivos JavaScript minificados e compilados antecipadamente.
+### 🔹 Ambiente de Desenvolvimento
 
-O subdiretório ClientApp é um aplicativo Angular CLI padrão. Se você abrir um prompt de comando nesse diretório, poderá executar qualquer comando ng (por exemplo, ng test) ou usar o npm para instalar pacotes extras nele.
+1. Acesse o diretório Angular:
 
+```bash
+cd ClientApp
+ng serve
+```
 
-## Andaime de código
+2. Acesse via navegador:
+   [http://localhost:4200](http://localhost:4200)
 
-Execute `ng generate component-name` para gerar um novo componente. Você também pode usar `ng generate directiva|pipe|service|class|guard|interface|enum|module`.
+> O aplicativo será recarregado automaticamente ao alterar os arquivos-fonte.
 
-## Construir
+### 🔹 Recursos Embutidos
 
-Execute `ng build` para compilar o projeto. Os artefatos de compilação serão armazenados no diretório `dist/`. Use o sinalizador `--prod` para uma compilação de produção.
+* Navegação de página via Angular Router (SPA)
+* Integração com Angular CLI para builds e hot reload
+* Build otimizado para produção com `dotnet publish`
+* `ng build` é chamado automaticamente na publicação
 
-## Executando testes de unidade
+---
 
-Execute `ng test` para executar os testes de unidade via [Karma](https://karma-runner.github.io).
+## 📁 Estrutura do Projeto
 
-## Executando testes de ponta a ponta
+```
+/AngularProjetoInicialNet5
+├── ClientApp          # Aplicação Angular
+├── Controllers        # APIs ASP.NET Core
+├── Startup.cs         # Configuração de serviços e middlewares
+├── Program.cs         # Entrada da aplicação
+└── ...
+```
 
-Execute `ng e2e` para executar os testes de ponta a ponta via [Protractor](http://www.protractortest.org/).
+---
 
-## Mais ajuda
+## ⚙️ Comandos Úteis
 
-Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira o [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### 🔧 Gerar Código Angular
+
+```bash
+ng generate component nome-do-componente
+ng generate service nome-do-servico
+```
+
+> Também é possível gerar diretivas, pipes, guards, interfaces e módulos.
+
+### 🛠️ Build
+
+```bash
+ng build           # Build padrão
+ng build --prod    # Build para produção
+```
+
+---
+
+## 🧪 Testes
+
+### ✅ Unitários (Karma)
+
+```bash
+ng test
+```
+
+### 🔍 E2E (Protractor)
+
+```bash
+ng e2e
+```
+
+---
+
+## 📚 Recursos Úteis
+
+* [Angular CLI Documentation](https://angular.io/cli)
+* [ASP.NET Core Docs](https://learn.microsoft.com/aspnet/core)
+* [Bootstrap](https://getbootstrap.com/)
+* [TypeScript Docs](https://www.typescriptlang.org/docs/)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições, issues e pull requests são bem-vindos. Sinta-se à vontade para colaborar com melhorias ou sugestões!
+
+---
+
+## 📬 Contato
+
+* ✉️ **[daniloopro@gmail.com](mailto:daniloopro@gmail.com)**
+* 💼 [LinkedIn – Danilo O. Pinheiro](https://www.linkedin.com/in/daniloopinheiro)
+* 🌐 [dopme.io](https://dopme.io)
+
+---
+
+<p align="center">
+  Feito com ❤️ por <strong>Danilo O. Pinheiro</strong>
+</p>
