@@ -112,6 +112,4 @@ Contribuições, issues e pull requests são bem-vindos. Sinta-se à vontade par
 
 ---
 
-<p align="center">
-  Feito com ❤️ por <strong>Danilo O. Pinheiro</strong>
-</p>
+<p align="center"> Feito com ❤️ por <strong>Danilo O. Pinheiro</strong><br/> <a href="https://devsfree.com.br" target="_blank">DevsFree</a> • <a href="https://dopme.io" target="_blank">dopme.io</a> </p>
